@@ -1,0 +1,236 @@
+[
+  {
+    "id": 1,
+    "title": "My Feelings and My Choices",
+    "topic": "Feelings, attention, and strengths",
+    "notes": "Everyone has feelings. They can help us notice what is happening, but we can still choose what to do next. In this level, you will practice calming pauses, focusing again, and noticing what you do well.",
+    "summary": "Notice how you feel, take a breath, and choose one helpful next step.",
+    "dailyHabits": ["Take three slow breaths when you feel rushed.", "Name one feeling each day.", "Notice one thing you did well."],
+    "modules": [
+      {
+        "id": 1,
+        "title": "Notice Your Feelings",
+        "challenge": "For three days, pause when you feel worried, upset, or excited. Take three slow breaths and tell a trusted grown-up what you noticed.",
+        "microLessons": [
+          {
+            "id": "pause-and-notice",
+            "title": "Pause and name it",
+            "objective": "Name a feeling and choose a kind, safe next step.",
+            "body": "Feelings are clues. You might feel excited before a game or worried before a test. You can say, “I feel worried,” without saying that you are bad or wrong.\n\nPause, take three slow breaths, name the feeling, and choose what could help. You might ask for help, get a drink of water, or try one small step.",
+            "audioScript": "Pause for a moment. Take a slow breath. What are you feeling? What is one helpful thing you can do next?",
+            "imagePrompt": "A cheerful primary school student taking three calm breaths before starting a classroom activity",
+            "task": { "description": "Think of one feeling you had today. Name it and choose one helpful thing to do.", "time": "2 minutes" },
+            "journalPrompt": "What feeling did you notice today? What helped you?",
+            "quiz": [{ "id": "pause-q1", "type": "mcq", "prompt": "What can you do when a big feeling arrives?", "options": ["Pause, name it, and choose a helpful step", "Pretend feelings never happen", "Blame yourself", "Shout at someone"], "answerIndex": 0 }]
+          },
+          {
+            "id": "attention-reset",
+            "title": "Bring your mind back",
+            "objective": "Practice returning your attention to one task.",
+            "body": "Sometimes our minds wander while we read, listen, or do homework. That happens to everyone. When you notice, take one breath and bring your mind back to the next small part.\n\nYou can point to the line you are reading, put away one distraction, or ask a grown-up for a quiet place. Each time you return, you are practicing focus.",
+            "audioScript": "If your mind wanders, that is okay. Notice it, take one breath, and come back to the next small part.",
+            "imagePrompt": "A young student reading at a bright desk with a pencil and a small plant",
+            "task": { "description": "Read or work on one thing for five minutes. When your mind wanders, gently come back.", "time": "5 minutes" },
+            "journalPrompt": "What helps you pay attention when you read or learn?",
+            "quiz": [{ "id": "attention-q1", "type": "mcq", "prompt": "What can you do when you notice your mind wandered?", "options": ["Give up", "Gently return to your task", "Get angry with yourself", "Start many new tasks"], "answerIndex": 1 }]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "My Strengths and Dreams",
+        "challenge": "Draw or write one thing you would like to learn. Ask someone you trust to help you choose one small step to try this week.",
+        "microLessons": [
+          {
+            "id": "values-compass",
+            "title": "What matters to me?",
+            "objective": "Notice a strength or kind value you want to practice.",
+            "body": "People are good at different things. You might be patient, curious, brave, helpful, or good at making others laugh. These are strengths you can use to learn and help.\n\nThink of a time you felt proud of something you did. What strength did you use? Choose one strength to practice today, such as sharing, trying again, or listening carefully.",
+            "audioScript": "Think of one thing you do well. How could you use that strength to learn or help someone today?",
+            "imagePrompt": "A group of diverse primary students sharing drawings that show their different strengths",
+            "task": { "description": "Draw or write one thing you do well. Show it to a trusted person and ask what they notice about your strengths.", "time": "5 minutes" },
+            "journalPrompt": "What is one thing you do well, and how can you use it to help?",
+            "quiz": [{ "id": "values-q1", "type": "mcq", "prompt": "What is a strength?", "options": ["Something helpful you can do or practice", "A reason to be better than others", "A prize", "Something only grown-ups have"], "answerIndex": 0 }]
+          },
+          {
+            "id": "vision-to-action",
+            "title": "One step toward my dream",
+            "objective": "Turn a learning wish into one small action.",
+            "body": "A dream can be something you hope to learn or do. Maybe you want to read a bigger book, learn a sport, or help care for a garden. You do not have to do it all today.\n\nPick one small step. You could read one page, practice for five minutes, or ask someone how to begin. Small steps help dreams grow, just like little drops fill a bucket.",
+            "audioScript": "Choose something you want to learn. What is one small step you can try today?",
+            "imagePrompt": "A child taking a small stepping stone toward a colorful path through green hills",
+            "task": { "description": "Write or draw something you want to learn. Choose one small step to try today.", "time": "5 minutes" },
+            "journalPrompt": "What would you like to learn? What is your first small step?",
+            "quiz": [{ "id": "dream-q1", "type": "mcq", "prompt": "Which is a small first step toward learning to draw?", "options": ["Draw one shape today", "Wait until you are an artist", "Buy every art tool", "Give up if it looks tricky"], "answerIndex": 0 }]
+          }
+        ]
+      }
+    ],
+    "test": {
+      "questions": [
+        { "id": "q1", "type": "mcq", "prompt": "What can you do when you notice a strong feeling?", "options": ["Blame yourself", "Shout right away", "Pause, name it, and choose a helpful step", "Hide from everyone"], "answerIndex": 2 },
+        { "id": "q2", "type": "mcq", "prompt": "What can help when your mind wanders?", "options": ["Get angry", "Come back gently to the next small part", "Stop learning forever", "Do many things at once"], "answerIndex": 1 },
+        { "id": "q3", "type": "mcq", "prompt": "How can you begin a dream?", "options": ["Wait until it is easy", "Do everything today", "Take one small step", "Compare yourself with a friend"], "answerIndex": 2 },
+        { "id": "q4", "type": "reflection", "prompt": "Name one strength you have and one way you can use it this week.", "answerIndex": null }
+      ],
+      "passingScore": 2
+    },
+    "badgesOnCompletion": ["Curious Learner"]
+  },
+  {
+    "id": 2,
+    "title": "Little Habits, Big Growth",
+    "topic": "Helpful habits and focus",
+    "notes": "A habit is something we practice again and again. Small habits can help us learn, care for ourselves, and keep our promises. In this level, you will make a tiny plan, focus on one task, and try again when a day does not go as planned.",
+    "summary": "Start small, practice often, and try again when things get tricky.",
+    "dailyHabits": ["Put your learning things in one place.", "Start one task for five minutes.", "Notice one thing you tried today."],
+    "modules": [
+      {
+        "id": 1,
+        "title": "Small Habits That Stick",
+        "challenge": "Choose one helpful habit, such as reading or packing your school bag. Practice it for five days and mark each day you try. Ask a grown-up to help you remember.",
+        "microLessons": [
+          {
+            "id": "habit-small-start",
+            "title": "Start very small",
+            "objective": "Make a habit easy to remember and begin.",
+            "body": "A big job can feel hard to start. Make the first part small. Instead of “read a whole book,” try “read one page after dinner.” Instead of “clean everything,” put away five things.\n\nChoose when you will do it and connect it to something you already do. A small start can grow as you keep practicing.",
+            "audioScript": "Choose one helpful habit. Make the first step small and choose when you will do it.",
+            "imagePrompt": "A child checking off a simple five-day reading habit chart",
+            "task": { "description": "Pick a helpful habit. Write or draw the tiny first step and when you will do it.", "time": "3 minutes" },
+            "journalPrompt": "What small habit would you like to practice this week?",
+            "quiz": [{ "id": "habit-q1", "type": "mcq", "prompt": "Which is the easiest habit to begin?", "options": ["Read one page after dinner", "Read every book today", "Never take a break", "Wait until someone reminds you"], "answerIndex": 0 }]
+          },
+          {
+            "id": "environment-design",
+            "title": "Get ready to begin",
+            "objective": "Prepare a space or reminder that makes a helpful habit easier.",
+            "body": "Getting ready can make a task easier. Put your book and pencil where you can find them. Pack your school bag before bedtime. Ask a grown-up to help you set a reminder.\n\nYou do not need a perfect room. Choose one small change that helps you begin. Put away one toy or turn off one distraction while you work.",
+            "audioScript": "Make it easier to begin. Put what you need nearby and move one distraction out of the way.",
+            "imagePrompt": "A cozy, simple study corner with a school book, pencil case, and packed bag",
+            "task": { "description": "Get one thing ready for a task you want to do tomorrow.", "time": "3 minutes" },
+            "journalPrompt": "What could you get ready today to help tomorrow-you?",
+            "quiz": [{ "id": "environment-q1", "type": "mcq", "prompt": "What can help you start homework?", "options": ["Put your book and pencil nearby", "Hide your school bag", "Turn on every screen", "Wait until you feel perfect"], "answerIndex": 0 }]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Focus and Try Again",
+        "challenge": "Choose one school or home task. Work on it for five minutes, take a short stretch break, then try another five minutes. If you forget, begin again the next day.",
+        "microLessons": [
+          {
+            "id": "one-thing-focus",
+            "title": "One thing at a time",
+            "objective": "Break a big task into small parts and focus on one part.",
+            "body": "A big task can feel like a mountain. Break it into little steps. For a school project, you might choose a topic, draw a picture, and write one sentence.\n\nPick just the next step. Work on it for five minutes, then pause. You can ask your teacher or a grown-up if you are not sure what to do.",
+            "audioScript": "When a task feels big, choose the very next small part. Do that part first.",
+            "imagePrompt": "A child climbing a friendly illustrated hill made of small colorful stepping stones",
+            "task": { "description": "Choose a task. Draw or write its first small step, then work on that step for five minutes.", "time": "5 minutes" },
+            "journalPrompt": "What big task feels easier after you break it into little steps?",
+            "quiz": [{ "id": "focus-q1", "type": "mcq", "prompt": "What can you do when a task feels too big?", "options": ["Choose one small next step", "Do every part at once", "Hide the task", "Decide you cannot do it"], "answerIndex": 0 }]
+          },
+          {
+            "id": "resilient-restart",
+            "title": "Try again tomorrow",
+            "objective": "Use a missed day as a chance to make a new plan.",
+            "body": "Sometimes we forget a habit or cannot finish a task. That happens to everyone. It does not mean you cannot learn.\n\nAsk yourself: “What got in the way?” Maybe you needed help, more time, or a reminder. Make one small change and try again. You can ask a trusted grown-up for help.",
+            "audioScript": "If a plan did not work today, that is okay. Think of one change and try again.",
+            "imagePrompt": "A child smiling while reopening a book after a rainy day, with sunlight coming through a window",
+            "task": { "description": "Think of one plan that did not happen. Draw or write one way to make it easier next time.", "time": "3 minutes" },
+            "journalPrompt": "What helps you try again when something feels hard?",
+            "quiz": [{ "id": "restart-q1", "type": "mcq", "prompt": "If you miss a day of your habit, what can you do?", "options": ["Try again and make a helpful change", "Give up forever", "Be mean to yourself", "Hide it from everyone"], "answerIndex": 0 }]
+          }
+        ]
+      }
+    ],
+    "test": {
+      "questions": [
+        { "id": "q1", "type": "mcq", "prompt": "How can you make a new habit easier?", "options": ["Make a very long list", "Start with a small step", "Wait until you never feel tired", "Try to do everything at once"], "answerIndex": 1 },
+        { "id": "q2", "type": "mcq", "prompt": "What can help you focus on a big task?", "options": ["Think about every part at once", "Hide your materials", "Choose one small part", "Do five tasks together"], "answerIndex": 2 },
+        { "id": "q3", "type": "mcq", "prompt": "What can you do after missing a habit?", "options": ["Stop trying", "Try again and make a new plan", "Blame a friend", "Wait for a perfect day"], "answerIndex": 1 },
+        { "id": "q4", "type": "reflection", "prompt": "Name one helpful habit you want to practice. When will you try it?", "answerIndex": null }
+      ],
+      "passingScore": 2
+    },
+    "badgesOnCompletion": ["Habit Hero"]
+  },
+  {
+    "id": 3,
+    "title": "Kind Choices and Teamwork",
+    "topic": "Listening, fairness, and helping",
+    "notes": "We learn and play with other people. Listening, using kind words, and thinking about what is fair can help everyone feel included. In this level, you will practice teamwork and small ways to help at home or school.",
+    "summary": "Listen carefully, use kind words, and help your group work together.",
+    "dailyHabits": ["Let someone finish speaking before you answer.", "Use kind words when you disagree.", "Offer one helpful action at home or school."],
+    "modules": [
+      {
+        "id": 1,
+        "title": "Listening and Kind Words",
+        "challenge": "During one conversation or game this week, let another person finish, say what you heard, and ask if you understood. Try to include someone who has not had a turn.",
+        "microLessons": [
+          {
+            "id": "listen-to-understand",
+            "title": "Listen with care",
+            "objective": "Show someone you are listening and check what they mean.",
+            "body": "Listening means giving someone a chance to finish. Look toward them if that feels comfortable. Then say one thing you heard: “You wanted a turn too.” You can ask, “Did I understand?”\n\nPeople may like different games or have different ideas. Listening helps you learn what they think. You do not have to agree with everything to be kind.",
+            "audioScript": "Let the other person finish. Say what you heard and ask if you understood.",
+            "imagePrompt": "Two primary school children taking turns to talk and listen in a sunny school garden",
+            "task": { "description": "In one conversation, let someone finish and tell them one thing you heard.", "time": "One conversation" },
+            "journalPrompt": "How do you feel when someone listens to you?",
+            "quiz": [{ "id": "listen-q1", "type": "mcq", "prompt": "What is one way to show you are listening?", "options": ["Let the person finish speaking", "Talk over them", "Walk away while they talk", "Laugh at their idea"], "answerIndex": 0 }]
+          },
+          {
+            "id": "respectful-conflict",
+            "title": "Use kind words when you disagree",
+            "objective": "Tell someone what you need without using hurtful words.",
+            "body": "Friends do not always agree. You can talk about a problem without calling someone a name. Try saying what happened and what you need.\n\nYou could say, “I felt sad when I did not get a turn. Can I have the next turn?” Listen to what the other person says. If you feel unsafe or someone keeps hurting you, tell a trusted grown-up.",
+            "audioScript": "You can disagree and still be kind. Say what happened, say what you need, and ask a trusted grown-up for help if you feel unsafe.",
+            "imagePrompt": "Two classmates kindly solving a disagreement about taking turns with a ball",
+            "task": { "description": "Practice one kind sentence you could use when you need a turn or need help.", "time": "3 minutes" },
+            "journalPrompt": "What kind words could you use if you and a friend want different things?",
+            "quiz": [{ "id": "conflict-q1", "type": "mcq", "prompt": "Which sentence uses kind words to solve a problem?", "options": ["You are always bad", "Can I have a turn next?", "I will never play with you", "Go away"], "answerIndex": 1 }]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Fair Choices and Helping",
+        "challenge": "Choose one safe way to help at home or school. Ask first, do the helpful task, and thank the person who worked with you.",
+        "microLessons": [
+          {
+            "id": "wise-decisions",
+            "title": "Pause and think about what is fair",
+            "objective": "Think about safety, fairness, and other people before choosing.",
+            "body": "Before you choose, pause and ask: “Is it safe? Is it fair? How might another person feel?” These questions can help with games, sharing, and group work.\n\nIf you are not sure, stop and ask a trusted grown-up. You can change your choice when you learn something new. Good choices help keep people safe and included.",
+            "audioScript": "Before you choose, think about safety, fairness, and how another person might feel.",
+            "imagePrompt": "Children sharing colorful art supplies fairly at a classroom table",
+            "task": { "description": "Think of a small choice today. Ask yourself whether it is safe and fair to everyone.", "time": "2 minutes" },
+            "journalPrompt": "What is one way to make a game or group activity fair for everyone?",
+            "quiz": [{ "id": "decision-q1", "type": "mcq", "prompt": "What can you ask before making a choice?", "options": ["Is it safe and fair?", "Will I always get my way?", "Can I ignore everyone?", "Can I rush?"], "answerIndex": 0 }]
+          },
+          {
+            "id": "lead-through-service",
+            "title": "Help your group",
+            "objective": "Offer a helpful action and give others a chance to join in.",
+            "body": "Helping does not mean doing everything by yourself. Ask, “Would you like help?” You could share supplies, tidy a play area, or help a classmate find a page.\n\nGood teamwork gives everyone a turn. Thank people for helping you too. If a job is not safe or you are unsure, ask a grown-up first.",
+            "audioScript": "Ask if someone would like help. Share the work, let everyone take a turn, and ask a grown-up if you are unsure.",
+            "imagePrompt": "A small group of children working together to tidy a classroom garden",
+            "task": { "description": "Ask someone at home or school if one small helpful job would make their day easier.", "time": "This week" },
+            "journalPrompt": "What is one way you can help your class, family, or friends this week?",
+            "quiz": [{ "id": "service-q1", "type": "mcq", "prompt": "What is a kind way to offer help?", "options": ["Ask, “Would you like help?”", "Take over without asking", "Tell someone they cannot do it", "Make fun of the task"], "answerIndex": 0 }]
+          }
+        ]
+      }
+    ],
+    "test": {
+      "questions": [
+        { "id": "q1", "type": "mcq", "prompt": "How can you show someone you are listening?", "options": ["Talk over them", "Ignore them", "Let them finish and say what you heard", "Change the subject"], "answerIndex": 2 },
+        { "id": "q2", "type": "mcq", "prompt": "What can you say when you need a turn?", "options": ["You are bad", "Can I have the next turn?", "Go away", "I will break the game"], "answerIndex": 1 },
+        { "id": "q3", "type": "mcq", "prompt": "What can help you make a fair choice?", "options": ["Rush and grab", "Only think about yourself", "Think about safety and other people", "Hide the problem"], "answerIndex": 2 },
+        { "id": "q4", "type": "reflection", "prompt": "What is one safe way you can help someone at home or school?", "answerIndex": null }
+      ],
+      "passingScore": 2
+    },
+    "badgesOnCompletion": ["Kind Teammate", "Helpful Friend"]
+  }
+]

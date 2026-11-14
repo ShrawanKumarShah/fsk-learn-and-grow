@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --fsk-radius: 1.25rem;
+}
+
+.fsk-surface {
+  @apply rounded-3xl shadow-soft bg-white; 
+}
+
+.fsk-gradient {
+  background-image: radial-gradient(1000px 480px at 70% 0%, #FFE8D1 0%, #CBE7F7 55%, #ffffff 100%);
+}
+
+.fsk-heading {
+  @apply text-pine font-semibold;
+}
+
+.text-pine { color: #2E6F5E; }
+
+.fsk-button {
+  @apply px-4 py-2 rounded-2xl bg-fsk-ocean text-white hover:bg-fsk-ocean/90 transition-colors;
+}
+
+.fsk-pill {
+  @apply inline-block px-3 py-1 rounded-2xl bg-fsk-sky/60 text-pine;
+}
+
+.lesson-illustration {
+  overflow: hidden;
+  border-radius: 1.25rem;
+}
+
+.lesson-illustration svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.lesson-art-float {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: lesson-art-float 3.8s ease-in-out infinite;
+}
+
+.lesson-art-delay {
+  animation-delay: -1.6s;
+}
+
+.lesson-art-pulse {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: lesson-art-pulse 3s ease-in-out infinite;
+}
+
+.lesson-art-twinkle {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: lesson-art-twinkle 2.6s ease-in-out infinite;
+}
+
+@keyframes lesson-art-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-7px); }
+}
+
+@keyframes lesson-art-pulse {
+  0%, 100% { opacity: 0.35; transform: scale(0.92); }
+  50% { opacity: 0.8; transform: scale(1.05); }
+}
+
+@keyframes lesson-art-twinkle {
+  0%, 100% { opacity: 0.35; transform: scale(0.75); }
+  50% { opacity: 1; transform: scale(1.35); }
+}
+
+.tree-trunk {
+  transition: stroke-dashoffset 1200ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.tree-sprout {
+  transform-origin: 160px 199px;
+  animation: tree-sprout-in 700ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.tree-canopy {
+  transform-origin: 160px 90px;
+  animation: tree-canopy-in 850ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.tree-sparkle {
+  transform-origin: 160px 22px;
+  animation: tree-sparkle 2s ease-in-out infinite;
+}
+
+@keyframes tree-sprout-in {
+  from { opacity: 0; transform: scale(0.25); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes tree-canopy-in {
+  from { opacity: 0; transform: scale(0.45); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes tree-sparkle {
+  0%, 100% { transform: scale(0.8); opacity: 0.7; }
+  50% { transform: scale(1.2); opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tree-trunk,
+  .tree-sprout,
+  .tree-canopy,
+  .tree-sparkle,
+  .lesson-art-float,
+  .lesson-art-pulse,
+  .lesson-art-twinkle {
+    animation: none;
+    transition: none;
+  }
+}
